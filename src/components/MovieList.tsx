@@ -16,7 +16,6 @@ const CategoryMovieList: React.FC<CategoryMovieListProps> = ({ category }) => {
     const fetchMovies = async () => {
       try {
         const response = await tmdbApi.get(`/movie/${category}`);
-        console.log(response);
         setMovies(response.data.results);
       } catch (error) {
         console.error(`Error fetching ${category} movies:`, error);

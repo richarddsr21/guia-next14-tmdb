@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Navigation: React.FC = () => {
+const Navigation = () => {
   return (
     <nav>
       <ul>

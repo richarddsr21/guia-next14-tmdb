@@ -38,7 +38,7 @@ const CategoryMovieList: React.FC<CategoryMovieListProps> = ({ category }) => {
               height={750}
             />
             <h2>{movie.title}</h2>
-            <p>{movie.overview}</p>
+            {/* <p>{movie.overview}</p> */}
           </div>
         ))}
       </div>
